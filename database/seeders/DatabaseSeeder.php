@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\User::create(['name'=>'john','comments'=>'director']);
+        \App\Models\User::create(['name'=>'john smith','comments'=>'director']);
 
     }
 }
